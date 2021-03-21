@@ -1,0 +1,52 @@
+2021/03/21 17:01:11 [emerg] 8214#0: open() "/home/rayouyang/net_learn/nginx/nginx-1.19.8/bin/mime.types" failed (2: No such file or directory) in /home/rayouyang/net_learn/nginx/nginx-1.19.8/bin/nginx.conf:18
+2021/03/21 17:01:52 [emerg] 8483#0: hello_string:raouyang in /home/rayouyang/net_learn/nginx/nginx-1.19.8/bin/nginx.conf:48
+2021/03/21 17:01:52 [emerg] 8483#0: hello_counter:1 in /home/rayouyang/net_learn/nginx/nginx-1.19.8/bin/nginx.conf:49
+2021/03/21 17:23:41 [emerg] 26890#0: open() "/home/rayouyang/net_learn/nginx/nginx-1.19.8/bin/conf/nginx.conf" failed (2: No such file or directory)
+2021/03/21 17:24:01 [emerg] 27124#0: open() "/home/rayouyang/net_learn/nginx/nginx-1.19.8/bin/./conf/nginx.conf" failed (2: No such file or directory)
+2021/03/21 17:24:10 [emerg] 27174#0: hello_string:raouyang in /home/rayouyang/net_learn/nginx/nginx-1.19.8/bin/nginx.conf:48
+2021/03/21 17:24:10 [emerg] 27174#0: hello_counter:1 in /home/rayouyang/net_learn/nginx/nginx-1.19.8/bin/nginx.conf:49
+2021/03/21 17:24:10 [emerg] 27174#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2021/03/21 17:24:10 [emerg] 27174#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2021/03/21 17:24:10 [emerg] 27174#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2021/03/21 17:24:10 [emerg] 27174#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2021/03/21 17:24:10 [emerg] 27174#0: bind() to 0.0.0.0:8000 failed (98: Address already in use)
+2021/03/21 17:24:10 [emerg] 27174#0: still could not bind()
+2021/03/21 17:24:26 [emerg] 27272#0: open() "/home/rayouyang/net_learn/nginx/nginx-1.19.8/bin/conf/nginx.conf" failed (2: No such file or directory)
+2021/03/21 17:24:51 [emerg] 27431#0: hello_string:raouyang in /home/rayouyang/net_learn/nginx/nginx-1.19.8/bin/nginx.conf:48
+2021/03/21 17:24:51 [emerg] 27431#0: hello_counter:1 in /home/rayouyang/net_learn/nginx/nginx-1.19.8/bin/nginx.conf:49
+2021/03/21 17:25:13 [emerg] 27433#0: *1 ngx_http_hello_handler is called!, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:13 [emerg] 27433#0: *1 hello_string:raouyang Visited Times:1, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:15 [emerg] 27433#0: *2 ngx_http_hello_handler is called!, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:15 [emerg] 27433#0: *2 hello_string:raouyang Visited Times:2, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:16 [emerg] 27433#0: *3 ngx_http_hello_handler is called!, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:16 [emerg] 27433#0: *3 hello_string:raouyang Visited Times:3, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:17 [emerg] 27433#0: *4 ngx_http_hello_handler is called!, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:17 [emerg] 27433#0: *4 hello_string:raouyang Visited Times:4, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:17 [emerg] 27433#0: *5 ngx_http_hello_handler is called!, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:17 [emerg] 27433#0: *5 hello_string:raouyang Visited Times:5, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:19 [emerg] 27433#0: *6 ngx_http_hello_handler is called!, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:19 [emerg] 27433#0: *6 hello_string:raouyang Visited Times:6, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:19 [emerg] 27433#0: *7 ngx_http_hello_handler is called!, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:19 [emerg] 27433#0: *7 hello_string:raouyang Visited Times:7, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:19 [emerg] 27433#0: *8 ngx_http_hello_handler is called!, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:19 [emerg] 27433#0: *8 hello_string:raouyang Visited Times:8, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:20 [emerg] 27433#0: *9 ngx_http_hello_handler is called!, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:20 [emerg] 27433#0: *9 hello_string:raouyang Visited Times:9, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:20 [emerg] 27433#0: *10 ngx_http_hello_handler is called!, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:20 [emerg] 27433#0: *10 hello_string:raouyang Visited Times:10, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:21 [emerg] 27433#0: *11 ngx_http_hello_handler is called!, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:21 [emerg] 27433#0: *11 hello_string:raouyang Visited Times:11, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:21 [emerg] 27433#0: *12 ngx_http_hello_handler is called!, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:21 [emerg] 27433#0: *12 hello_string:raouyang Visited Times:12, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:23 [emerg] 27433#0: *13 ngx_http_hello_handler is called!, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:23 [emerg] 27433#0: *13 hello_string:raouyang Visited Times:13, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:24 [emerg] 27433#0: *14 ngx_http_hello_handler is called!, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:24 [emerg] 27433#0: *14 hello_string:raouyang Visited Times:14, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:29 [emerg] 27433#0: *15 ngx_http_hello_handler is called!, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:29 [emerg] 27433#0: *15 hello_string:raouyang Visited Times:15, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:30 [emerg] 27433#0: *16 ngx_http_hello_handler is called!, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:30 [emerg] 27433#0: *16 hello_string:raouyang Visited Times:16, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:31 [emerg] 27433#0: *17 ngx_http_hello_handler is called!, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:31 [emerg] 27433#0: *17 hello_string:raouyang Visited Times:17, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1:8000"
+2021/03/21 17:25:48 [emerg] 27961#0: open() "/home/rayouyang/net_learn/nginx/nginx-1.19.8/bin/conf/nginx.conf" failed (2: No such file or directory)
+2021/03/21 17:26:11 [notice] 28259#0: signal process started
